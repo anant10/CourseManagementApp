@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile</h1>
+        <form>
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">
+                    Username </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-username"
+                           id="username"
+                           placeholder="Alice">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="phone" class="col-sm-2 col-form-label">
+                    Phone </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-phone"
+                           id="phone"
+                           placeholder="(555) 123-4324">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">
+                    Email </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-email"
+                           id="email"
+                           placeholder="alice@wonderland.com">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="faculty" class="col-sm-2 col-form-label">
+                    Role </label>
+                <div class="col-sm-10">
+                    <select id="faculty" class="form-control wbdv-field wbdv-role"
+                            placeholder="Faculty">
+                        <option value="virgil">Faculty</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="dob" class="col-sm-2 col-form-label">
+                    Date of Birth </label>
+                <div class="col-sm-10">
+                    <input type="date" id="dob" class="form-control wbdv-field wbdv-dob"
+                            placeholder="mm/dd/yyyy">
+                    </input>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <button class="btn btn-success btn-block wbdv-button wbdv-update"> Update
+                    </button>
+                    <button class="btn btn-danger btn-block wbdv-button wbdv-logout"> Logout
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

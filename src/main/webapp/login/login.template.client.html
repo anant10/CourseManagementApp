@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        function signinClick(){
+            window.location.href = "../profile/profile.template.client.html";
+        }
+    </script>
     <title>Title</title>
 </head>
 <body>
@@ -31,7 +36,9 @@
         <div class="form-group row">
             <label class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <button class="btn btn-primary btn-block wbdv-button wbdv-login">Sign in</button>
+                <button onclick="signinClick(); return false;"
+                        class="btn btn-primary btn-block wbdv-button wbdv-login"> Sign
+                    in</button>
                 <div class="row">
                     <div class="col-6">
                         <a href="#" class="wbdv-link wbdv-forgot-password">Forgot Password?</a>
